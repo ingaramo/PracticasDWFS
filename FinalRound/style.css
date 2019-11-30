@@ -1,0 +1,43 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#addButton{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+
+}
+#input{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+#bigContainer {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 100%;
+    margin: auto;
+    margin-top:2%;
+    border: 2px solid black;
+    border-radius: 20px;
+  }
+header {
+    text-align: center; 
+
+}
+h2{
+    border-bottom :1px solid black;
+}
+.section {
+    padding: 2%;
+}
+
+.Item {
+    display: flex;
+    justify-content: space-between;
+}
+#completedList {
+    font-style: italic;
+    text-decoration: line-through;
+}

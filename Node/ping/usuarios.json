@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "nombre": "Juan",
+        "telefono": 303456
+    },
+    {
+        "id": 2,
+        "nombre": "Pedro",
+        "telefono": 111111
+    }
+]

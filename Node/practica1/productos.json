@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 1200,
+        "costo": 800,
+        "nombre": "Chicle Bazooka",
+        "ganancia": 50
+    },
+    {
+        "precio": 500,
+        "costo": 300,
+        "nombre": "Caramelo Media Hora",
+        "ganancia": 66.66666666666667
+    },
+    {
+        "precio": 200,
+        "costo": 150,
+        "nombre": "Alfajor Fulbito de Frutas",
+        "ganancia": 33.333333333333336
+    },
+    {
+        "precio": 5000,
+        "costo": 4000,
+        "nombre": "Chocoarroz Sabor Avellanas Normandas",
+        "ganancia": 25
+    },
+    {
+        "precio": 500,
+        "costo": 400,
+        "nombre": "Cepita Manzana Cool",
+        "ganancia": 25
+    },
+    {
+        "precio": 2000,
+        "costo": 1800,
+        "nombre": "Prity Latita",
+        "ganancia": 11.11111111111111
+    }
+]

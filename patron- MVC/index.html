@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>CLIENTE</h1>
+        <hr>
+        <span class='etiqueta'>Nombre</span><div > <input id='nombre' type="ingrese nombre"></div>
+        <span class='etiqueta'>Telefono</span><div > <input id='telefono' type="ingrese telefono"></div>
+        <button id="guardarCliente">GUARDAR</button> 
+    </header>
+    <div id='detalle'>
+        <H1>DETALLE</H1>
+        <hr>
+        <div id=inputProducto>
+            <span class='etiqueta'>Codigo</span><span ><input id='codigo' type="text"></span>
+            <span class='etiqueta'>Descripcion</span><span ><input id='descripcion' type="text"></span>
+            <span class='etiqueta'>Cantidad</span><span ><input id='cantidad' type="text"></span>
+            <span class='etiqueta'>Precio</span><span ><input id='precio' type="text"></span>
+        </div>
+        <div id= 'botones'>
+        <button id="guardarProducto">GUARDAR</button> 
+        <button id="actualizar">ACTUALIZAR</button> 
+        </div>
+        <table id='tabla'>
+                <tr>
+                        <th>codigo</th>
+                        <th>descripcion</th>
+                        <th>cantidad</th>
+                        <th>precio</th>
+                    </tr>
+                    <tr>
+                            <th>1codigo</th>
+                            <th>1descripcion</th>
+                            <th>1cantidad</th>
+                            <th>1precio</th>
+                        </tr>
+                        <tr>
+                                <th>2codigo</th>
+                                <th>2descripcion</th>
+                                <th>2cantidad</th>
+                                <th>2precio</th>
+                            </tr>
+                            <tr>
+                                    <th>3codigo</th>
+                                    <th>3descripcion</th>
+                                    <th>3cantidad</th>
+                                    <th>3precio</th>
+                                </tr>
+        
+        </table>
+        <span id="total">Total </span>
+    </div>
+    
+</body>
+<script src="modelo.js"></script>
+<script src="vista.js"></script>
+<script src="controlador.js"></script>
+</html>

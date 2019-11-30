@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="cuerpo">
+        <div>
+            <h1>Cliente</h1>
+            <hr>
+            <div id="cliente">
+                <input type="text" id="nombre" placeholder="Escriba Nombre y Apellido">
+                <input type="text" id="telefono" placeholder="Telefono">
+                <input type="button" value="Cargar" id="agregarCliente" class="boton">
+            </div>
+            <br><br>
+            <div id="datosCliente">
+            </div>
+        </div>
+        <br>
+        <h1>Detalle</h1>
+        <hr>
+        <div id="detalle">
+            <span>Código</span><input type="Código" id="codigo">
+            <span>Descripción</span><input type="Descripción" id="descripcion">
+            <span>Cantidad</span><input type="Cantidad" id="cantidad">
+            <span>Precio</span><input type="Precio" id="precio">
+            
+            <input type="button" value="Agregar" id="agregarProducto" class="boton">
+        </div>
+        <br>
+        <br>
+
+        <div id="tabla">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Código</td>
+                        <td>Descripción</td>
+                        <td>Cantidad</td>
+                        <td>Precio Unitario</td>
+                        <td>Precio</td>
+                    </tr>
+                </thead>
+                <tbody id="contenidoTabla">
+
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <spam>Total: $ </spam>
+            <spam id="total"> </spam>
+        </div>
+    </div>
+    <script src="js/vista.js"></script>
+    <script src="js/modelo.js"></script>
+    <script src="js/controlador.js"></script>
+</body>
+
+</html>
